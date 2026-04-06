@@ -1,2 +1,3 @@
 requests
 tenacity
+psycopg2-binary
