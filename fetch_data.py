@@ -23,7 +23,7 @@ def fetch_earthquake_data():
     
     except requests.exceptions.RequestException as e:
         logger.error(f"API request failed: {e}")
-        raiseE
+        raise
     
 
 # RETURN EXAMPLE BELOW
